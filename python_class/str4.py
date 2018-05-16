@@ -1,0 +1,6 @@
+a=str(input('Enter a string:'))
+b=str(input('Enter the old string:'))
+c=str(input('Enter the new string:'))
+d=int(input('No of times you want to replace:'))
+print(a)
+print(a.replace(b,c,d))

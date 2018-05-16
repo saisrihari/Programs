@@ -1,0 +1,7 @@
+b.headline{color:green;font-size:22px;font-family:arial;text-decoration:underline}
+.xlink{cursor:crosshair;color:#456 }
+.hlink{cursor:help;color:}
+A:link{text-decoration:none;color:green}/* unvistied link */
+A:visited{text-decoration:none;color:yellow}/* visited link */
+A:active{text-decoration:none;color:blue}/* selected link */
+A:hover{text-decoration:underline;color:red}/* mouse overlink */

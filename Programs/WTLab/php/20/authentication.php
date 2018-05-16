@@ -1,0 +1,24 @@
+<?php
+$username=$_GET['uname'];
+$passwd=$_GET['pwd'];
+$status="no";
+if(isset($_COOKIE['mycookie1']))
+{
+foreach($_COOKIE['mycookie1'] as $key=> $value)
+{
+if(($key==trim($username)) && ($value==$passwd))
+{
+$status="yes";
+echo"welcometo ".$key;
+break;
+}
+else
+{
+	$status="no";
+}
+}
+}
+echo "<br><br><br><br><br><br><br><br><br><br><a href='logout.php'>logout</a>";
+if($status=="no")
+header("Location:fail.php");
+?>

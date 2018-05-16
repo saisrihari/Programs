@@ -1,0 +1,57 @@
+<html>
+<head>
+<link rel="icon" href="https://static-collegedunia.com/public/college_data/images/logos/col29079.png" type="image/png">
+<title> BVC INSTIUTE OF TECHNOLOGY AND SCIENCE </title>
+</head>
+<body>
+<h1> <img src="///home/srihari/Downloads/bvc.jpg" alt="" align="Center"> BVC INSTITUTE OF TECHNOLOGY AND SCIENCE </h1>
+<table>
+
+<button onclick="myFunction()"><h4>Home</h4></button>
+<script>
+function myFunction() {
+    window.open("///home/srihari/html/Home.html");
+}
+</script>
+
+<tr>
+<button onclick="myFunction1()"><h4>Login</h4></button>
+<script>
+function myFunction1() {
+    window.open("///home/srihari/html/Login.html");
+}
+</script>
+</tr>
+<tr>
+<button onclick="myFunction2()"><h4>Registration</h4></button>
+<script>
+function myFunction2() {
+    window.open("///home/srihari/html/Registration.html");
+}
+</script>
+</tr>
+<tr>
+<button onclick="myFunction3()"><h4>Catalogue</h4></button>
+<script>
+function myFunction3() {
+    window.open("///home/srihari/html/Catalogue.html");
+}
+</script>
+</tr>
+<tr>
+<button onclick="myFunction4()"><h4>Cart</h4></button>
+<script>
+function myFunction4() {
+    window.open("///home/srihari/html/Cart.html");
+}
+</script>
+</tr>
+</table>
+</body>
+<center>
+<div id="tabs-1">
+  <iframe src="///home/srihari/html/Login.html" name= "tabsa" width="80%" height="60%" frameborder="20">
+  </iframe>
+</div>
+</center>
+</html>

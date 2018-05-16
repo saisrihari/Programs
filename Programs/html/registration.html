@@ -1,0 +1,81 @@
+<html>
+<head>
+<script>
+function validateForm(){
+var x=document.myForm.Name.value;
+var y=document.myForm.password.value;
+var z=document.myForm.phno.value;
+if(x==""){
+alert("Name must be filled");
+return false;
+}
+else if(x.length<3){
+alert("Name must more than 2 characters")
+return false;
+}
+else if(y.length<8){
+alert("Password must 8 characters")
+return false;
+}
+else if(z.length<10){
+alert("invaild number")
+return false;
+}
+}
+</script>
+</head>
+<body bgcolor="blue">
+<form name="myForm" onsubmit="validateForm()" method="post">
+<table align="center" height="20">
+<center><h1> Registration </h1></center>
+
+<tr>
+<td align="right">Name:</td>
+<td align="left"><input type="text" name="Name"></td>
+</tr>
+<tr>
+<td align="right">Password:</td>
+<td align="left"><input type="password" name="password"></td>
+</tr>
+<tr>
+<td align="right">Email:</td>
+<td align="left"><input type="text" name="email"></td>
+</tr>
+<tr>
+<td align="right">Phone:</td>
+<td align="left"><input type="text" name="phno"></td>
+</tr>
+<tr>
+<td align="right">Gender:</td>
+<td align="left"><form action="">
+  <input type="radio" name="gender" value="male"> Male
+  <input type="radio" name="gender" value="female"> Female
+  <input type="radio" name="gender" value="other"> Other
+</form></td>
+</tr>
+<tr>
+<td align="right">Date of Birth:</td>
+<td align="left"><input type="date" name="date"></td>
+</tr>
+<tr>
+<td align="right">Languages:</td>
+<td align="left"><input type=checkbox name="english" value="English">
+English
+<input type=checkbox name="Telugu" value="Telugu">
+Telugu
+<input type=checkbox name="Hindi" value="Hindi">
+Hindi
+<input type=checkbox name="Tamil" value="Tamil">
+Tamil
+</td>
+</tr>
+<tr>
+<td align="right">Address:</td>
+<td align="left"><input type="text" name="address"></td>
+<center></tr>
+<tr><td align="right"><input type="submit" value="Submit"></td>
+<td align="left"><input type="reset"  value="Reset"></td></tr>
+</form>
+</table>
+</body>
+</html>

@@ -1,0 +1,7 @@
+t=(1,2,3,4,'hari')
+l=list(t)
+print(l)
+l.remove(4)
+print(l)
+t=tuple(l)
+print(t)
